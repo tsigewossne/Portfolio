@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tsigewossne/portfolio/issues"
   },
-  "homepage": "https://github.com/tsigewossne/portfolio#readme"
+  "homepage": "https://github.com/tsigewossne/portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
 }
