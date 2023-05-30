@@ -96,7 +96,7 @@ h2 {
   line-height: 108%;
   text-align: center;
   display: flex;
-  color: #172B4D;
+  color: #172b4d;
   justify-content: center;
 }
 
@@ -136,9 +136,7 @@ section h3 {
   display: flex;
   color: #36b37e;
   justify-content: center;
-  line-height: 52px;
-  letter-spacing: 0em;
-
+  letter-spacing: 0px;
 }
 
 .menu_main .toggler {
