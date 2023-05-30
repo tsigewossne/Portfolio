@@ -1,6 +1,8 @@
 # portfolio
 This is a Repository to design a template for my personal portfolio depending on the figma template from microverse
 <a name="readme-top"></a>
+# Portfolio<a name="readme-top"></a>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -18,6 +20,9 @@ This is a Repository to design a template for my personal portfolio depending on
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -27,6 +32,12 @@ This is a Repository to design a template for my personal portfolio depending on
 This is a personal portfolio, Developed based on a Given figma template(Templete three) from microverse.
 
 **Portfolio: setup and mobile-first** is the first to setup a personal portifolio design that includes header and contacts.
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Portfolio: Set up and mobile first <a name="about-project"></a>
+
+**Portfolio** is an introductory project to easily show the design of personal portfolio by using basic programming languages (Html & CSS) and clear code with linters check.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -70,6 +81,45 @@ Install this project with:
 To run the project, execute the following command:
 right click on the html file and open in your default browser
 
+> css and html
+
+### Key Features <a name="key-features"></a>
+
+- **Html & css**
+- **Linters config**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get started with the project follow the below steps
+
+### Prerequisites
+>you need to install code editor and web browser on your device
+>you need to have the knowledge of git and github commands before this project
+
+### Setup
+
+>clone the folder in your specified directory by "git clone + link (git@github.com:tsigewossne/Hello_world.git)" and make sure the file has be copied.
+
+
+### Install
+
+> use Visual studio to the project to install the project by pull request
+
+### Usage
+
+>You can run it with commads on git that include git add . ,git commit and git push
+
+### Run tests
+
+>open the project after you made whole changes
+
+### Deployment
+request for the code review
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -107,6 +157,25 @@ If you like this project please appriciate my work by following my social media 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the microverse team that stands me for this project including my morning team, code reviewers and my partners.
+- LinkedIn: [LinkedIn](http://ca.linkedin.com/in/linkedintsigewossne)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Additional Tags**
+- [ ] **Simple buttons**
+- [ ] **Updated News**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the microverse team that stands me for this project including my morning team, code reviewers and my partners
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
