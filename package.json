@@ -19,5 +19,8 @@
   "homepage": "https://github.com/tsigewossne/portfolio#readme",
   "devDependencies": {
     "hint": "^7.1.8"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
   }
 }
