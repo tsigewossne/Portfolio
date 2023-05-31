@@ -581,7 +581,7 @@ h4 {
 }
 
 @media (max-width: 400)
- {
+  {
   nav {
     width: 100%;
   }
