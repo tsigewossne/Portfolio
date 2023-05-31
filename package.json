@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-1",
+  "version": "1.0.0",
+  "description": "This is a Repository to design a template for my personal portfolio depending on the figma template from microverse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsigewossne/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsigewossne/portfolio/issues"
+  },
+  "homepage": "https://github.com/tsigewossne/portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
+  }
+}
