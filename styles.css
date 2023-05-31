@@ -580,13 +580,13 @@ h4 {
   align-content: center;
 }
 
-@media (max-width: 400)
- {
-nav {
-  width: 100%;
+@media (max-width: 400) 
+{
+  nav {
+    width: 100%;
   }
 
-section {
-  width: 100%;
-}
+  section {
+    width: 100%;
+  }
 }
