@@ -129,7 +129,7 @@ request for the code review
 - GitHub: [@githubhandle](https://github.com/tsigewossne)
 - Twitter: [@twitterhandle] (https://twitter.com/TsigeWo)
 - Email: [@gmail] (https://tsigedejen@gmail.com)
-- LinkedIn: [LinkedIn](http://ca.linkedin.com/in/linkedintsigewossne)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/?trk=404_page)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
