@@ -260,7 +260,7 @@ button {
   bottom: 8px;
   background: #36b37f;
   border-radius: 4px;
-  color:#fff;
+  color: #fff;
   text-align: center;
   border: none;
   top: 90%;
@@ -339,7 +339,7 @@ button {
   width: 327px;
   justify-content: center;
   align-items: center;
-  }
+}
 
 .language {
   display: flex;
@@ -392,9 +392,8 @@ button {
   padding: 5%;
   padding-top: 3%;
   gap: 2px;
-  text-align: center; 
+  text-align: center;
   font-style: normal;
-  font-weight: 600;
 }
 
 .language h3 {
@@ -485,9 +484,6 @@ button {
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
 }
 
 .frameworks h3 {
@@ -569,19 +565,15 @@ button {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
-  background-color: #ffffff;
+  color: #36b37e;
+  background-color: #fff;
   border-radius: 8px;
   padding: 5%;
   padding-top: 3%;
   gap: 10px;
   text-align: center;
-  color: #36b37e;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
 }
 
 .skills h3 {
@@ -627,7 +619,7 @@ button {
 
 @media (max-width: 400) {
   nav {
-     width: 100%;
+    width: 100%;
   }
 
   section {
