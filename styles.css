@@ -156,13 +156,14 @@ img {
 }
 
 .works {
-  display: flex;
+  display: grid;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   top: 10%;
-  gap: 20px;
+  row-gap: 20px;
+  grid-template-rows: auto auto auto auto auto auto;
 }
 
 .works h2 {
