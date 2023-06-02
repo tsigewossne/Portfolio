@@ -616,6 +616,21 @@ button {
 .containers button {
   margin-left: -25%;
 }
+ 
+.container5 text {
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;"
+}
+
+.container5 textarea {
+  width: 200px;
+  height: 100px;
+}
 
 @media (max-width: 400) {
   nav {
