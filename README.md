@@ -156,8 +156,6 @@ If you like this project please appriciate my work by following my social media 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank the microverse team that stands me for this project including my morning team, code reviewers and my partners.
-- LinkedIn: [LinkedIn](http://ca.linkedin.com/in/linkedintsigewossne)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
