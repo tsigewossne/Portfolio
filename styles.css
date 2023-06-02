@@ -149,25 +149,25 @@ img {
   position: absolute;
   width: 50px;
   height: 50px;
-  left: calc(50% - 40px/2 + 0.5px);
-  background: #ffffff;
+  left: calc(50% - 40px / 2 + 0.5px);
+  background: #fff;
   border-radius: 32px;
   top: 9.2%;
 }
 
 .works {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-position: absolute;
-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
 }
 
 .works h2 {
   width: 85%;
   height: 97px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -186,7 +186,7 @@ hr {
   text-align: center;
   position: absolute;
   order: inherit;
-  background: #36B37E;
+  background: #36b37e;
   border-radius: 24px;
   top: 110px;
 }
@@ -205,7 +205,6 @@ hr {
   align-content: center;
 }
 
-
 .img-placeholder {
   background: #ebf0ee;
 }
@@ -217,7 +216,6 @@ hr {
 }
 
 .text ul {
-  margin-left: 0px;
   display: flex;
   align-items: stretch;
   align-content: space-between;
@@ -242,7 +240,7 @@ hr {
   font-size: 24px;
   line-height: 32px;
   display: flex;
-  color: #3A4A42;
+  color: #3a4a42;
   text-align: center;
   justify-content: center;
   margin-left: 30px;
@@ -258,11 +256,11 @@ button {
   position: absolute;
   width: 122px;
   height: 40px;
-  left: calc(50% - 122px/2 + 0.5px);
+  left: calc(50% - 122px / 2 + 0.5px);
   bottom: 8px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
-  color:#ffffff;
+  color:#fff;
   text-align: center;
   border: none;
   top: 90%;
@@ -280,7 +278,7 @@ button {
 .about h2 {
   width: 85%;
   height: 97px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -311,12 +309,12 @@ button {
 }
 
 .right-corner {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-margin-left: 45%;
-width: max-content;
-object-fit: fill;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 45%;
+  width: max-content;
+  object-fit: fill;
 }
 
 .left-corner {
@@ -326,21 +324,21 @@ object-fit: fill;
   margin-left: -50%;
   margin-top: 83%;
   width: max-content;
-  }
+}
 
-  .containers {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    position: absolute;
-    top: 160%;
-    background: #ebf0ee;
-    border: 1px solid #c1c7d0;
-    border-radius: 8px;
-    height: 316px;
-    width: 327px;
-    justify-content: center;
-    align-items: center;
+.containers {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: absolute;
+  top: 160%;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  height: 316px;
+  width: 327px;
+  justify-content: center;
+  align-items: center;
   }
 
 .language {
@@ -367,18 +365,18 @@ object-fit: fill;
 }
 
 .language ol {
-display: flex;
-flex-direction: row;
-padding: 3%;
-gap: 20px;
-text-align: center;
-margin-left: -70px;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  gap: 20px;
+  text-align: center;
+  margin-left: -70px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 10%;
 }
 
 .language ol li {
@@ -388,19 +386,15 @@ margin-top: 10%;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
-  background-color: #ffffff;
+  color: #36b37e;
+  background-color: #fff;
   border-radius: 8px;
   padding: 5%;
   padding-top: 3%;
   gap: 2px;
-  text-align: center;
-  color: #36b37e;
-  font-family: 'Inter', sans-serif;
+  text-align: center; 
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
 }
 
 .language h3 {
@@ -482,14 +476,13 @@ margin-top: 10%;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #3a4a42;
-  background-color: #ffffff;
+  color: #36b37e;
+  background-color: #fff;
   border-radius: 8px;
   padding: 5%;
   padding-top: 3%;
   gap: 10px;
   text-align: center;
-  color: #36b37e;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
