@@ -162,6 +162,7 @@ img {
   align-items: center;
   position: absolute;
   top: 10%;
+  gap: 20px;
 }
 
 .works h2 {
@@ -217,21 +218,37 @@ hr {
 
 .text ul {
   display: flex;
-  align-items: stretch;
-  align-content: space-between;
-  margin-top: 5%;
+  flex-direction: row;
+  padding: 3%;
+  gap: 5px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  width: 327px;
+  align-content: stretch;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  margin-left: 0;
 }
 
 .text ul li {
   width: fit-content;
-  height: 20px;
+  height: 30px;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   color: #3a4a42;
   background-color: #ebf0ee;
-  border-radius: 2px;
+  border-radius: 4px;
+  padding: 8px 12px 8px 12px;
+  padding-top: 3%;
+  gap: 5px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
 }
 
 .text h2 {
@@ -252,8 +269,7 @@ button {
   align-items: center;
   justify-content: center;
   padding: 12px;
-  gap: 10px;
-  position: absolute;
+  position: relative;
   width: 122px;
   height: 40px;
   left: calc(50% - 122px / 2 + 0.5px);
@@ -263,7 +279,77 @@ button {
   color: #fff;
   text-align: center;
   border: none;
-  top: 90%;
+  top: 20px;
+}
+
+.containera {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  height: 474px;
+  top: 70%;
+  margin-right: 0%;
+  bottom: 20%;
+  justify-content: center;
+  align-content: center;
+}
+
+.containerb {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  height: 474px;
+  top: 70%;
+  margin-right: 0%;
+  bottom: 20%;
+  justify-content: center;
+  align-content: center;
+}
+
+.containerc {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  height: 474px;
+  top: 70%;
+  margin-right: 0%;
+  bottom: 20%;
+  justify-content: center;
+  align-content: center;
+}
+
+.containerd {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  height: 474px;
+  top: 70%;
+  margin-right: 0%;
+  bottom: 20%;
+  justify-content: center;
+  align-content: center;
+}
+
+.containere {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  width: 327px;
+  border: 1px solid #d0d9d4;
+  height: 474px;
+  top: 70%;
+  margin-right: 0%;
+  bottom: 20%;
+  justify-content: center;
+  align-content: center;
 }
 
 .about {
@@ -272,7 +358,7 @@ button {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 103%;
+  top: 100%;
 }
 
 .about h2 {
@@ -298,14 +384,12 @@ button {
   font-size: 20px;
   line-height: 28px;
   color: #172b4d;
-  flex: none;
   order: 1;
-  flex-grow: 0;
   text-align: center;
 }
 
 .about button {
-  top: 105%;
+  margin-left: -50%;
 }
 
 .right-corner {
@@ -331,7 +415,7 @@ button {
   flex-direction: column;
   box-sizing: border-box;
   position: absolute;
-  top: 160%;
+  top: 113%;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
@@ -630,6 +714,34 @@ button {
 .container5 textarea {
   width: 200px;
   height: 100px;
+}
+
+.container6 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 280%;
+  height: 316px;
+  width: 327px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container6 h5 {
+  text-align: center;
+}
+
+.container6 ul li {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  gap: 2%;
+  padding: 10%;
+}
+
+.container6 ul {
+  margin-left: -10%;
+  width: 50%;
 }
 
 @media (max-width: 400) {
