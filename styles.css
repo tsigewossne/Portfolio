@@ -35,8 +35,8 @@ nav {
 }
 
 section {
-  background-color: #fff;  
-  padding:0%;  
+  background-color: #fff;
+  padding: 0%;
   margin: 0%;
 }
 
@@ -192,7 +192,7 @@ hr {
   height: 474px;
   top: 7%;
   margin: 10px;
-  padding: 0px;
+  padding: 0;
   justify-content: center;
   align-content: center;
 }
@@ -285,7 +285,7 @@ button {
   height: 474px;
   top: 7%;
   margin: 10px;
-  padding: 0px;
+  padding: 0;
   justify-content: center;
   align-content: center;
 }
@@ -299,7 +299,7 @@ button {
   height: 474px;
   top: 7%;
   margin: 10px;
-  padding: 0px;
+  padding: 0;
   justify-content: center;
   align-content: center;
 }
@@ -313,7 +313,7 @@ button {
   height: 474px;
   top: 7%;
   margin: 10px;
-  padding: 0px;
+  padding: 0;
   justify-content: center;
   align-content: center;
 }
@@ -327,7 +327,7 @@ button {
   height: 474px;
   top: 7%;
   margin: 10px;
-  padding: 0px;
+  padding: 0;
   justify-content: center;
   align-content: center;
 }
@@ -341,7 +341,7 @@ button {
   height: 474px;
   top: 7%;
   margin: 10px;
-  padding: 0px;
+  padding: 0;
   justify-content: center;
   align-content: center;
 }
@@ -432,9 +432,9 @@ button {
 }
 
 .containers ul li {
-gap: 20px;
-padding: 50px;
-margin-left: -20px;
+  gap: 20px;
+  padding: 50px;
+  margin-left: -20px;
 }
 
 .containers ol {
@@ -520,11 +520,12 @@ margin-left: -20px;
   position: absolute;
   margin-left: 30px;
 }
+
 .frameworks ul li {
   gap: 20px;
   padding: 50px;
   margin-left: -20px;
-  }
+}
   
 .frameworks ol {
   display: flex;
@@ -544,8 +545,8 @@ margin-left: -20px;
   line-height: 16px;
   margin-top: -20%;
   width: 300px;
-  }
-  
+}
+
 .frameworks ol li {
   width: fit-content;
   height: 30px;
@@ -681,6 +682,7 @@ margin-left: -20px;
 
 .container5 button {
   margin-left: -25%;
+  margin-top: 330px;
 }
 
 .container5 #fname {
@@ -718,10 +720,6 @@ margin-left: -20px;
   height: 100px;
   margin-top: 20px;
   margin-left: -30px;
-}
-
-.container5 button {
-  margin-top: 330px;
 }
 
 .container6 {
