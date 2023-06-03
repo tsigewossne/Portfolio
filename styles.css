@@ -750,7 +750,7 @@ button {
   width: 50%;
 }
 
-.button :after {
+.button::after {
   content: "";
   background: #90ee90;
   display: block;
@@ -770,7 +770,7 @@ button {
   transition: 0s;
 }
 
-.button::hover {
+.button:hover {
   opacity: 1;
   right: 0;
 }
