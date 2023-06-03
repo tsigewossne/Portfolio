@@ -526,7 +526,7 @@ button {
   padding: 50px;
   margin-left: -20px;
 }
-  
+
 .frameworks ol {
   display: flex;
   flex-direction: row;
@@ -750,20 +750,20 @@ button {
   width: 50%;
 }
 
-.button:after {
+.button :after {
   content: "";
-  background: #90EE90;
+  background: #90ee90;
   display: block;
   position: absolute;
   padding-top: 300%;
   padding-left: 350%;
-  margin-left: -20px!important;
+  margin-left: -20px;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
-.button:active:after {
+.button :active :after {
   padding: 0;
   margin: 0;
   opacity: 1;
