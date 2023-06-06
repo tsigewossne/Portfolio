@@ -52,12 +52,10 @@ ul {
   justify-content: center;
   order: 3;
   gap: 3px;
-  margin-left: 15px;
 }
 
 li {
   list-style-type: none;
-  height: 12px;
   display: flex;
   justify-content: center;
 }
@@ -141,6 +139,20 @@ img {
   left: calc(50% - 40px / 2 + 0.5px);
   background: #fff;
   border-radius: 32px;
+}
+
+.next img {
+  margin: 0;
+  padding: 0;
+}
+
+.contact img {
+  height: 18.88px;
+  gap: 20px;
+  padding: 0;
+  width: 15px;
+  border-radius: 0%;
+  margin-bottom: 5px;
 }
 
 .works {
@@ -682,8 +694,7 @@ form > * {
 }
 
 .container5 button {
-  margin-left: -25%;
-  margin-top: 330px;
+  margin-top: 350px;
 }
 
 .container5 #fname {
@@ -722,7 +733,6 @@ form > * {
 .container5 textarea {
   width: 290px;
   height: 100px;
-  margin-top: 20px;
   padding: 8px;
 }
 
@@ -742,16 +752,17 @@ form > * {
 }
 
 .container6 ul li {
-  display: flex;
-  flex-direction: row;
   position: relative;
   gap: 2%;
-  padding: 10%;
 }
 
-.container6 ul {
-  margin-left: -10%;
-  width: 50%;
+.container6 img {
+  height: 18.88px;
+  gap: 20px;
+  top: 20px;
+  padding: 0;
+  width: 15px;
+  border-radius: 0%;
 }
 
 .button::after {
