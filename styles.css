@@ -713,6 +713,9 @@ button {
 
 .container5 form {
   margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container5 textarea {
