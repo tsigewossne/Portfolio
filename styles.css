@@ -677,6 +677,10 @@ button {
   width: 327px;
 }
 
+form > * {
+  font-family: 'Inter', sans-serif;
+}
+
 .container5 button {
   margin-left: -25%;
   margin-top: 330px;
@@ -692,6 +696,8 @@ button {
   background: #fff;
   width: 290px;
   height: 40px;
+  font-style: italic;
+  padding: 8px;
 }
 
 .container5 #email {
@@ -704,6 +710,8 @@ button {
   background: #fff;
   width: 290px;
   height: 40px;
+  font-style: italic;
+  padding: 8px;
 }
 
 .container5 form {
@@ -715,6 +723,7 @@ button {
   width: 290px;
   height: 100px;
   margin-top: 20px;
+  padding: 8px;
 }
 
 .container6 {
