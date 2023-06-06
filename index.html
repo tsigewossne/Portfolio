@@ -190,9 +190,9 @@
           </div>
           <div class="container5">
             <form action="/https://formspree.io/f/myyaolbw" method="post">
-              <input type="text" id="fname" name="fullname" placeholder="Full name">
-              <input type="text" id="email" name="lastname" placeholder="Your last name..">
-              <textarea placeholder="Hey I would like to connect to ..."></textarea>
+              <input type="text" maxlength="30" id="fname" name="fullname" placeholder="Full name" required>
+              <input type="email" id="email" name="lastname" placeholder="Your last name.." required>
+              <textarea maxlength="500" placeholder="Hey I would like to connect to ..." required></textarea>
               <button type="submit">Get in touch</button>
             </form>
           </div>
