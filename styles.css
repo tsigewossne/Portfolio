@@ -398,9 +398,15 @@ button {
 }
 
 .about button {
-  margin-left: 2%;
   position: absolute;
   margin-top: 70%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.about button:hover {
+  background-color: red;
+
 }
 
 .right-corner {
@@ -674,7 +680,7 @@ button {
   flex-direction: column;
   position: relative;
   top: 170%;
-  height: 316px;
+  height: 200px;
   width: 327px;
   align-items: center;
   margin-top: 130px;
@@ -694,7 +700,10 @@ form > * {
 }
 
 .container5 button {
+  margin-left: 0;
   margin-top: 350px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .container5 #fname {
@@ -732,7 +741,7 @@ form > * {
 
 .container5 textarea {
   width: 290px;
-  height: 100px;
+  height: 90px;
   padding: 8px;
 }
 
@@ -765,29 +774,8 @@ form > * {
   border-radius: 0%;
 }
 
-.button::after {
-  content: "";
-  background: #90ee90;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s;
-}
-
-.button:active::after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
-}
-
-.button:hover {
-  opacity: 1;
-  right: 0;
+button:hover {
+  background-color: red;
 }
 
 @media only screen and (max-width: 600px) {
