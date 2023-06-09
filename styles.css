@@ -447,8 +447,8 @@ button {
 }
 
 .containers ul li {
-  gap: 20px;
-  padding: 50px;
+  gap: 15px;
+  padding: 30px;
   margin-left: -20px;
 }
 
@@ -817,24 +817,28 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    margin: 0%;
+    margin: 10%;
   }
 
   .headline p {
     align-self: center;
     position: relative;
-    margin: 25%;
+    margin: 20%;
   }
 
   .contact1 {
-    position: absolute;
-    margin-top: 40%;
+    position: relative;
   }
 
   .contact1 ul li {
     width: 30%;
     height: 10%;
     border-radius: 0%;
+  }
+
+  .about-container img {
+    width: 60%;
+    background: none;
   }
 
   .contact1 ul li img {
@@ -850,6 +854,7 @@ button:hover {
   .h2 {
     margin: 0;
   }
+
   .container1 {
     width: 30%;
     border: 1px solid #d0d9d4;
@@ -884,7 +889,6 @@ button:hover {
     width: 100%;
     gap: 10px;
     justify-content: center;
-
   }
 
   .text ul li {
@@ -913,7 +917,7 @@ button:hover {
     text-align: center;
     color: #42526e;
     position: absolute;
-    margin-top: -100%;
+    margin-top: -50%;
   }
 
   .about button {
@@ -945,43 +949,67 @@ button:hover {
   }
 
   .containers {
-    width: 30%;
+    width: 31%;
   }
 
   .container2 {
-    width: 30%;
+    width: 31%;
   }
 
   .container3 {
-    width: 30%;
+    width: 31%;
   }
 
   .containers ul {
+    position: absolute;
+    margin-left: 0px;
+  }
+
+  .container4 {
+    width: 50%;
+    color: #172b4d;
+    align-self: self-start;
+    margin-left: 0%;
+  }
+
+  .container4 h2 {
+    float: left;
+  }
+ 
+  .container5 {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -35%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .container5 button {
+    margin-top: 50%;
+    margin-left: -35%;
+  }
+
+  .container5 h5 {
+    visibility: hidden;
+  }
+
+  .footer {
+    margin-left: -110%;
+  }
+
+  #t {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: -20px;
+  }
+
+  .container7 ul {
     display: flex;
-  }
-
-  .about-container img {
-    width: 80%;
-    background: none;
-  }
-
-  .about-container ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  .about-container ol {
-    justify-content: center;
-    margin-left: 5px;
-  }
-
-  .about-container ol li {
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 16px;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    width: 10%;
   }
 }
