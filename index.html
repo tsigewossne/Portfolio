@@ -188,14 +188,12 @@
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
           </div>
           <div class="container5">
-            <form action="/action_page.php">
-              <input type="text" id="fname" name="fullname" placeholder="Full name">
-              <input type="text" id="email" name="lastname" placeholder="Your last name..">
-              <textarea placeholder="Hey I would like to connect to ..."></textarea>
-              <button type="submit">Get in touch</button>
+            <form action="https://formspree.io/f/myyaolbw" method="POST">
+              <input type="text" maxlength="30" id="fname" name="fullname" placeholder="Full name" required>
+              <input type="email" id="email" name="email" placeholder="example@something.com" required>
+              <textarea maxlength="500" placeholder="Hey I’d like to connect to..." required></textarea>
+              <button type="submit" formaction="https://formspree.io/f/myyaolbw">Get in touch</button>
             </form>
-          </div>
-          <div class="container6">
             <h5>tsigedejen@gmail.com</h5>
             <ul>
               <li><a href="https://twitter.com/TsigeWo"><img src="icons/twitter.svg"></a></li>
@@ -206,7 +204,7 @@
               <li><a href=""><img src="icons/angellist.svg"></a></li>
             </ul>
           </div>
-        </div>
+          <hr id="underline">
     </section>
 </body>
 </html>
