@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "boxicons": "^2.1.4",
-    "node-fetch": "^2.6.6"
+    "node-fetch": "^2.6.11"
   },
-    "compilerOptions": { 
-      "allowJs": true, 
-      "outDir": "./dist" 
- }
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist"
+  }
 }
