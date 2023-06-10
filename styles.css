@@ -830,6 +830,23 @@ button:hover {
     position: relative;
   }
 
+  .containers img {
+    margin-left: -150px;
+    margin-top: -50px;
+  }
+
+  .frameworks img {
+    margin-left: -40px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+  }
+
+  .skills img {
+    margin-left: -40px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+  }
+
   .contact1 ul li {
     width: 30%;
     height: 10%;
@@ -975,7 +992,7 @@ button:hover {
   .container4 h2 {
     float: left;
   }
-  
+
   .container5 {
     width: 50%;
     margin-left: 50%;
@@ -1013,29 +1030,12 @@ button:hover {
     width: 10%;
   }
 
-  .containers img{
-    margin-left: -150px;
-    margin-top: -50px;
-  }
-
-  .frameworks img {
-    margin-left: -40px;
-    margin-top: 50px;
-    margin-bottom: -10px;
-  }
-
   .frameworks h3 {
     margin-top: -30px;
   }
 
   .frameworks ol {
     margin-top: -80px;
-  }
-
-  .skills img {
-    margin-left: -40px;
-    margin-top: 50px;
-    margin-bottom: -10px;
   }
 
   .skills h3 {
