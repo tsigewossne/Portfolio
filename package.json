@@ -23,5 +23,9 @@
   "dependencies": {
     "boxicons": "^2.1.4",
     "node-fetch": "^2.6.6"
-  }
+  },
+    "compilerOptions": { 
+      "allowJs": true, 
+      "outDir": "./dist" 
+ }
 }
