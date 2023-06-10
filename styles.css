@@ -917,7 +917,7 @@ button:hover {
     text-align: center;
     color: #42526e;
     position: absolute;
-    margin-top: -50%;
+    margin-top: -30%;
   }
 
   .about button {
@@ -1011,5 +1011,38 @@ button:hover {
     justify-content: flex-start;
     position: absolute;
     width: 10%;
+  }
+
+  .containers img{
+    margin-left: -150px;
+    margin-top: -50px;
+  }
+
+  .frameworks img {
+    margin-left: -40px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+  }
+
+  .frameworks h3 {
+    margin-top: -30px;
+  }
+
+  .frameworks ol {
+    margin-top: -80px;
+  }
+
+  .skills img {
+    margin-left: -40px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+  }
+
+  .skills h3 {
+    margin-top: -30px;
+  }
+
+  .skills ol {
+    margin-top: -80px;
   }
 }
