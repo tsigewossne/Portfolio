@@ -23,5 +23,6 @@
   "dependencies": {
     "boxicons": "^2.1.4",
     "node-fetch": "^2.6.11"
-  }
+  },
+  "type": "module"
 }
