@@ -21,6 +21,6 @@
     "boxicons": "^2.1.4"
   },
   "devDependencies": {
-    "hint": "^7.1.9"
+    "hint": "^7.1.5"
   }
 }
