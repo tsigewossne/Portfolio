@@ -791,6 +791,10 @@ button:hover {
     width: 100%;
   }
 
+ nav {
+    visibility: hidden;
+  }
+
   .works {
     width: 100%;
     display: flex;
@@ -806,10 +810,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .nav {
-    visibility: hidden;
   }
 
   .container {
@@ -934,7 +934,7 @@ button:hover {
     text-align: center;
     color: #42526e;
     position: absolute;
-    margin-top: -30%;
+    margin-top: -40%;
   }
 
   .about button {
@@ -1044,5 +1044,9 @@ button:hover {
 
   .skills ol {
     margin-top: -80px;
+  }
+
+  hr {
+    visibility: hidden;
   }
 }
