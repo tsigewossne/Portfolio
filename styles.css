@@ -16,7 +16,7 @@ body {
   align-items: center;
   background: #f7f7f9;
   position: relative;
-  width: 43.5%;
+  width: 100%;
   margin: auto;
 }
 
@@ -38,6 +38,7 @@ section {
   background-color: #fff;
   padding: 0%;
   margin: 0%;
+  width: 100%;
 }
 
 section > * {
@@ -773,13 +774,17 @@ button:hover {
   border-radius: 2px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 375px) {
   html {
     overflow-x: hidden;
     width: 100%;
   }
 
-  @media only screen and (max-width: 600px) {
+  .about p {
+    margin-top: -450%;
+  }
+
+  @media only screen and (min-width: 600px) {
   html {
     overflow-x: hidden;
     width: 100%;
