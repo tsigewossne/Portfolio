@@ -783,7 +783,7 @@ button:hover {
   .about p {
     margin-top: -450%;
   }
-
+}
   @media only screen and (min-width: 600px) {
   html {
     overflow-x: hidden;
