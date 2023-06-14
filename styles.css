@@ -717,6 +717,32 @@ form > * {
   padding: 8px;
 }
 
+.container5 #email {
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;
+  width: 290px;
+  height: 35px;
+  font-style: italic;
+  padding: 8px;
+}
+
+.container5 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container5 textarea {
+  width: 290px;
+  height: 70px;
+  padding: 8px;
+  border-color: #60c095;
+}
+
 #underline {
   margin-top: 5%;
   width: 35%;
