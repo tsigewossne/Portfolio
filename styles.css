@@ -845,9 +845,10 @@ button:hover {
   }
 
   .contact1 {
-    position: relative;
+    position: absolute;
     justify-content: center;
     align-items: center;
+    visibility: visible;
   }
 
   .containers img {
@@ -880,7 +881,6 @@ button:hover {
 
   .contact1 ul li img {
     width: 12px;
-    margin: 5px;
   }
 
   .next {
@@ -1069,4 +1069,291 @@ button:hover {
   hr {
     visibility: hidden;
   }
+}
+
+  @media only screen and (min-width: 1024px) {
+    html {
+      overflow-x: hidden;
+      width: 100%;
+    }
+  
+    nav {
+      visibility: hidden;
+    }
+  
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav ul li {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10px;
+      gap: 5px;
+      margin-top: 20%;
+    }
+  
+    .works {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .headline {
+      background-image: url(icons/Header-llustration-desktop.svg);
+      background-position: initial;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -10%;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      margin: 10%;
+    }
+  
+    .headline p {
+      align-self: center;
+      position: relative;
+      margin: 20%;
+      margin-top: 15%;
+    }
+  
+    .contact1 {
+      position: relative;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .containers img {
+      margin-left: -150px;
+      margin-top: -50px;
+    }
+  
+    .frameworks img {
+      margin-left: -40px;
+      margin-top: 50px;
+      margin-bottom: -10px;
+    }
+  
+    .skills img {
+      margin-left: -40px;
+      margin-top: 50px;
+      margin-bottom: -10px;
+    }
+  
+    .contact1 ul li {
+      width: 30%;
+      height: 10%;
+      border-radius: 0%;
+      align-self: center;
+    }
+  
+    .about-container img {
+      width: 60%;
+      background: none;
+    }
+  
+    .contact1 ul li img {
+      width: 12px;
+      margin: 5px;
+    }
+  
+    .next {
+      background-color: #fff;
+      width: 100%;
+    }
+  
+    .h2 {
+      margin: 0;
+    }
+  
+    .container1 {
+      width: 30%;
+      border: 1px solid #d0d9d4;
+      top: 7%;
+      margin: 10px;
+      padding: 0;
+      justify-content: center;
+      align-content: center;
+    }
+  
+    .containera {
+      width: 30%;
+    }
+  
+    .containerb {
+      width: 30%;
+    }
+  
+    .containerc {
+      width: 30%;
+    }
+  
+    .containerd {
+      width: 30%;
+    }
+  
+    .containere {
+      width: 30.9%;
+    }
+  
+    .text ul {
+      width: 100%;
+      gap: 10px;
+      justify-content: center;
+    }
+  
+    .text ul li {
+      width: fit-content;
+      padding: 5px;
+      gap: 7px;
+    }
+  
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+    }
+  
+    .about p {
+      font-family: 'Inter', sans-serif;
+      width: 50%;
+      height: 50%;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: #42526e;
+      position: absolute;
+      margin-top: -40%;
+    }
+  
+    .about button {
+      position: absolute;
+      margin-top: 28%;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+  
+    .left-corner {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-left: -175%;
+      margin-top: 15%;
+      width: max-content;
+    }
+  
+    .about-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      gap: 10px;
+      margin: 0;
+      border-radius: 8px;
+      width: 100%;
+    }
+  
+    .containers {
+      width: 31%;
+    }
+  
+    .container2 {
+      width: 31%;
+    }
+  
+    .container3 {
+      width: 31%;
+    }
+  
+    .containers ul {
+      position: absolute;
+      margin-left: 0;
+    }
+  
+    .container4 {
+      width: 50%;
+      color: #172b4d;
+      align-self: self-start;
+      margin-left: 0%;
+    }
+  
+    .container4 h2 {
+      float: left;
+    }
+  
+    .container5 {
+      width: 50%;
+      margin-left: 50%;
+      margin-top: -35%;
+      justify-content: left;
+      align-items: left;
+    }
+  
+    .container5 button {
+      margin-top: 50%;
+      margin-left: -35%;
+    }
+  
+    .container5 h5 {
+      visibility: hidden;
+    }
+  
+    .footer {
+      margin-left: -110%;
+    }
+  
+    #t {
+      text-align: left;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 42px;
+      margin-top: -20px;
+    }
+  
+    .container7 ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      position: absolute;
+      width: 10%;
+    }
+  
+    .frameworks h3 {
+      margin-top: -30px;
+    }
+  
+    .frameworks ol {
+      margin-top: -80px;
+    }
+  
+    .skills h3 {
+      margin-top: -30px;
+    }
+  
+    .skills ol {
+      margin-top: -80px;
+    }
+  
+    hr {
+      visibility: hidden;
+    }
 }
