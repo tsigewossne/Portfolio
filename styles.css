@@ -697,6 +697,26 @@ form > * {
   font-family: "Inter", sans-serif;
 }
 
+.container5 button {
+  position: absolute;
+  margin-top: 65%;
+  display: inline-block;
+}
+
+.container5 #fname {
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;
+  width: 290px;
+  height: 35px;
+  font-style: italic;
+  padding: 8px;
+}
+
 #underline {
   margin-top: 5%;
   width: 35%;
