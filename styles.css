@@ -124,6 +124,8 @@ h1 {
   display: flex;
   color: #172b4d;
   justify-content: center;
+  align-self: center;
+  margin-top: 5%;
 }
 
 .headline {
@@ -150,6 +152,39 @@ img {
 .next img {
   margin: 0;
   padding: 0;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  margin-top: 70%;
+  background: none;
+  color: #505f79;
+}
+
+.fa-medium {
+  animation: none;
+}
+/* Add a hover effect*/
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: none;
+  color: #505f79;
+}
+
+.fa-medium {
+  background: none;
+  color: #505f79;
 }
 
 .contact img {
@@ -764,6 +799,10 @@ button:hover {
   background-color: red;
 }
 
+button:active {
+  background-color: blue;
+}
+
 #underline {
   margin-top: 5%;
   width: 35%;
@@ -782,6 +821,29 @@ button:hover {
   body {
     overflow-x: hidden;
     width: 100%;
+  }
+
+  .nav {
+    visibility: hidden;
+  }
+
+  .fa {
+    position: relative;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .container {
+    margin-top: 30%;
+  }
+
+  .headline p {
+    align-self: center;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 }
 
@@ -809,6 +871,11 @@ button:hover {
     font-size: 10px;
     gap: 5px;
     margin-top: 10%;
+  }
+
+  .fa {
+    position: relative;
+    margin-top: 800%;
   }
 
   .works {
@@ -841,7 +908,6 @@ button:hover {
     align-self: center;
     position: relative;
     margin: 20%;
-    margin-top: 15%;
   }
 
   .contact1 {
@@ -1086,6 +1152,7 @@ button:hover {
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      margin-top: 1%;
     }
   
     .nav ul li {
@@ -1094,7 +1161,6 @@ button:hover {
       font-weight: 700;
       font-size: 10px;
       gap: 5px;
-      margin-top: 20%;
     }
   
     .works {
@@ -1113,6 +1179,7 @@ button:hover {
       flex-direction: column;
       align-items: center;
       margin-top: -10%;
+      width: 100%;
     }
   
     .container {
@@ -1125,9 +1192,8 @@ button:hover {
   
     .headline p {
       align-self: center;
-      position: relative;
-      margin: 20%;
-      margin-top: 15%;
+      position: absolute;
+      margin-top: 23%;
     }
   
     .contact1 {
