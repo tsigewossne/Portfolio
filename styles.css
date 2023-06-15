@@ -1168,14 +1168,14 @@ button:active {
   }
 }
 
-  @media only screen and (min-width: 1024px) {
-html {
+@media only screen and (min-width: 1024px) {
+  html {
     overflow-x: hidden;
     width: 100%;
   }
-  
+
   nav {
-  visibility: hidden;
+    visibility: hidden;
   }
   
   .nav {
@@ -1193,14 +1193,14 @@ html {
     font-size: 10px;
     gap: 5px;
   }
-  
+
   .works {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+
   .headline {
     background-image: url(icons/Header-llustration-desktop.svg);
     background-position: initial;
@@ -1226,37 +1226,37 @@ html {
     position: absolute;
     margin-top: 23%;
   }
-  
+
   .contact1 {
     position: relative;
     justify-content: center;
     align-items: center;
   }
-  
+
   .containers img {
     margin-left: -150px;
     margin-top: -50px;
   }
-  
+
   .frameworks img {
     margin-left: -40px;
     margin-top: 50px;
     margin-bottom: -10px;
   }
-  
+
   .skills img {
     margin-left: -40px;
     margin-top: 50px;
     margin-bottom: -10px;
   }
-  
+
   .contact1 ul li {
     width: 30%;
     height: 10%;
     border-radius: 0%;
     align-self: center;
   }
-  
+ 
   .about-container img {
     width: 60%;
     background: none;
@@ -1271,7 +1271,7 @@ html {
     background-color: #fff;
     width: 100%;
   }
-  
+
   .h2 {
     margin: 0;
   }
@@ -1285,39 +1285,39 @@ html {
     justify-content: center;
     align-content: center;
   }
-  
+
   .containera {
     width: 30%;
   }
-  
+
   .containerb {
     width: 30%;
   }
-  
+
   .containerc {
     width: 30%;
   }
-  
+
   .containerd {
     width: 30%;
   }
-  
+
   .containere {
     width: 30.9%;
   }
-  
+
   .text ul {
     width: 100%;
     gap: 10px;
     justify-content: center;
   }
-  
+
   .text ul li {
     width: fit-content;
     padding: 5px;
     gap: 7px;
   }
-  
+
   .about {
     display: flex;
     flex-direction: column;
@@ -1326,7 +1326,7 @@ html {
     position: relative;
     width: 100%;
   }
-  
+
   .about p {
     font-family: 'Inter', sans-serif;
     width: 80%;
@@ -1342,14 +1342,14 @@ html {
     align-self: center;
     align-content: center;
   }
-  
+
   .about button {
     position: absolute;
     margin-top: 17%;
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  
+
   .left-corner {
     position: relative;
     display: flex;
@@ -1359,7 +1359,7 @@ html {
     margin-top: 5%;
     width: max-content;
   }
-  
+
   .about-container {
     display: flex;
     flex-direction: row;
@@ -1371,35 +1371,35 @@ html {
     border-radius: 8px;
     width: 100%;
   }
-  
+
   .containers {
     width: 31%;
   }
-  
+
   .container2 {
     width: 31%;
   }
-  
+
   .container3 {
     width: 31%;
   }
-  
+
   .containers ul {
     position: absolute;
     margin-left: 0;
   }
-  
+
   .container4 {
     width: 40%;
     color: #172b4d;
     align-self: self-start;
     margin-left: 7%;
   }
-  
+
  .container4 h2 {
     float: left;
   }
-  
+
   .container5 {
     width: 60%;
     margin-left: 50%;
@@ -1407,20 +1407,20 @@ html {
     justify-content: left;
     align-items: left;
   }
-  
+
   .container5 button {
     margin-top: 35%;
     margin-left: -40%;
   }
-  
+
   .container5 h5 {
     visibility: hidden;
   }
-  
+
   .footer {
     margin-left: -100%;
   }
-  
+
   #t {
     text-align: left;
     font-weight: 600;
@@ -1428,7 +1428,7 @@ html {
     line-height: 42px;
     margin-top: -30px;
   }
-  
+
   .container7 ul {
     display: flex;
     flex-direction: row;
@@ -1436,23 +1436,23 @@ html {
     position: absolute;
     width: 10%;
   }
-  
+
   .frameworks h3 {
     margin-top: -30px;
   }
-  
+
   .frameworks ol {
     margin-top: -90px;
   }
-  
+ 
   .skills h3 {
     margin-top: -30px;
   }
-  
+
   .skills ol {
     margin-top: -80px;
   }
-  
+
   hr {
     height: 2%;
     width: 150%;
