@@ -1177,7 +1177,7 @@ button:active {
   nav {
     visibility: hidden;
   }
-  
+
   .nav {
     display: flex;
     flex-direction: row;
@@ -1185,7 +1185,7 @@ button:active {
     align-items: center;
     margin-top: 1%;
   }
-  
+
   .nav ul li {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1212,7 +1212,7 @@ button:active {
     margin-top: -10%;
     width: 100%;
   }
-  
+
   .container {
     display: flex;
     flex-direction: column;
@@ -1220,7 +1220,7 @@ button:active {
     position: absolute;
     margin: 10%;
   }
-  
+
   .headline p {
     align-self: center;
     position: absolute;
@@ -1256,17 +1256,17 @@ button:active {
     border-radius: 0%;
     align-self: center;
   }
- 
+
   .about-container img {
     width: 60%;
     background: none;
   }
-  
+
   .contact1 ul li img {
     width: 12px;
     margin: 5px;
   }
-  
+
   .next {
     background-color: #fff;
     width: 100%;
@@ -1275,7 +1275,7 @@ button:active {
   .h2 {
     margin: 0;
   }
-  
+
   .container1 {
     width: 30%;
     border: 1px solid #d0d9d4;
@@ -1396,7 +1396,7 @@ button:active {
     margin-left: 7%;
   }
 
- .container4 h2 {
+  .container4 h2 {
     float: left;
   }
 
@@ -1444,7 +1444,7 @@ button:active {
   .frameworks ol {
     margin-top: -90px;
   }
- 
+
   .skills h3 {
     margin-top: -30px;
   }
