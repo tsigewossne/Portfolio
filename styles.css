@@ -871,6 +871,7 @@ button:active {
   .languages img {
     width: 20%;
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -1164,7 +1165,12 @@ button:active {
   }
 
   hr {
-    visibility: hidden;
+    height: 2%;
+    width: 150%;
+    background-color: #172b4d;
+    visibility: visible;
+    position: relative;
+    margin-left: -70%;
   }
 }
 
@@ -1418,7 +1424,7 @@ button:active {
     }
   
     .footer {
-      margin-left: -110%;
+      margin-left: -100%;
     }
   
     #t {
@@ -1453,7 +1459,12 @@ button:active {
       margin-top: -80px;
     }
   
-    .underline {
-      width: 100%;
+    hr {
+      height: 2%;
+      width: 150%;
+      background-color: #172b4d;
+      visibility: visible;
+      position: relative;
+      margin-left: -70%;
     }
 }
