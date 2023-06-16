@@ -1163,11 +1163,11 @@ button:active {
     padding-top: 5%;
   }
 
-.containers ol {
-  margin-left: 50%;
-  gap: 40%;
-}
-  
+  .containers ol {
+    margin-left: 50%;
+    gap: 40%;
+  }
+
   #hidden {
     display: none;
   }
@@ -1199,12 +1199,12 @@ button:active {
     margin-bottom: 20%;
   }
 
- .skills ol li {
+  .skills ol li {
     font-weight: 600;
     font-size: 10px;
     width: fit-content;
     margin: 0;
- }
+  }
 
   .containers ul {
     margin-left: 0;
