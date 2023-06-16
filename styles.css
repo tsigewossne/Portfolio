@@ -867,6 +867,49 @@ button:active {
   border-radius: 2px;
 }
 
+@media only screen and (min-width: 600px) {
+  .container1 {
+    width: 95%;
+  }
+
+  .containera {
+    width: 95%;
+  }
+
+  .containerb {
+    width: 95%;
+  }
+
+  .containerc {
+    width: 95%;
+  }
+
+  .containerd {
+    width: 95%;
+  }
+
+  .containere {
+    width: 95%;
+  }
+
+  .about p {
+    align-self: center;
+    top: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .about button {
+    top: -40%;
+    margin-left: -80%;
+    padding-top: -30%;
+  }
+
+  .left-corner {
+    margin-top: -5%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   html {
     overflow-x: hidden;
