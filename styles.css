@@ -162,7 +162,6 @@ img {
   border: 2px solid #36b37e;
   align-self: center;
   margin-left: -5%;
-
 }
 
 /* Style all font awesome icons */
@@ -469,13 +468,13 @@ button {
 }
 
 .about-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-top: 20%;
-position: relative;
-padding: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 20%;
+  position: relative;
+  padding: 30%;
 }
 
 .containers {
@@ -910,65 +909,11 @@ button:active {
   }
 }
 
-/*@media only screen and (min-width: 768px) {
-  html {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
-  .nav {
-    visibility: hidden;
-  }
-
-  .fa {
-    position: relative;
-  }
-
-  section {
-    width: 100%;
-  }
-
-  .container {
-    margin-top: 30%;
-  }
-
-  .headline p {
-    align-self: center;
-    margin: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
-
-  .about p {
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    margin-top: -250%;
-  }
-
-  .about button {
-    margin-top: 40%;
-  }
-
-  .about-container {
-    margin-top: -20%;
-  }
-
-  .languages img {
-    width: 20%;
-  }
-}*/
-
 @media only screen and (min-width: 768px) {
   html {
     overflow-x: hidden;
     width: 100%;
+    overflow-y: hidden;
   }
 
   body {
