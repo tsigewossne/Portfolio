@@ -949,6 +949,7 @@ button:active {
   #break {
     visibility: hidden;
   }
+
   .fa {
     position: relative;
     margin-top: 1550%;
@@ -1003,17 +1004,17 @@ button:active {
     margin-top: 20%;
   }
 
-.containers {
+  .containers {
     width: 33.33%;
-}
+  }
 
-.container2 {
-  width: 33.33%;
-}
+  .container2 {
+    width: 33.33%;
+  }
 
-.container3 {
-  width: 33.33%;
-}
+  .container3 {
+    width: 33.33%;
+  }
 
   .contact1 {
     position: absolute;
@@ -1162,26 +1163,15 @@ button:active {
     padding-top: 5%;
   }
 
-  .containers {
-    width: 33.33%;
-  }
-  
 .containers ol {
   margin-left: 50%;
   gap: 40%;
 }
-
-  .container2{
-    width: 33.33%;
-  }
-
+  
   #hidden {
     display: none;
   }
-  
-  .container3 {
-    width: 33.33%;
-  }
+
   .frameworks h3 {
     margin-top: -1px;
   }
