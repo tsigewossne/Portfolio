@@ -913,12 +913,12 @@ button:active {
   html {
     overflow-x: hidden;
     width: 100%;
-    overflow-y: hidden;
   }
 
   body {
     overflow-x: hidden;
     width: 100%;
+    overflow-y: hidden;
   }
 
   nav {
@@ -1267,6 +1267,51 @@ button:active {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  } 
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .headline p {
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 32px;
+    width: 70%;
+    align-self: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    margin-top: 17%;
+  }
+
+  .about p {
+    margin-top: -67%;
+    width: 80%;
+  }
+
+  .fa {
+     margin-top: 1850%;
+  }
+
+  .container5 {
+    margin-top: -35%;
+  }
+
+  .containers img {
+    margin-left: -70%;
+  }
+
+  .skills img {
+    margin-top: -10%;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
@@ -1293,6 +1338,9 @@ button:active {
     gap: 5px;
   }
 
+  .fa {
+    margin-top: 1700%;
+  }
   .works {
     width: 100%;
     display: flex;
@@ -1323,7 +1371,8 @@ button:active {
   .headline p {
     align-self: center;
     position: absolute;
-    margin-top: 23%;
+    margin-top: 25%;
+    width: 60%;
   }
 
   .contact1 {
@@ -1428,7 +1477,7 @@ button:active {
 
   .about p {
     font-family: 'Inter', sans-serif;
-    width: 80%;
+    width: 95%;
     height: 50%;
     font-style: normal;
     font-weight: 400;
@@ -1437,14 +1486,13 @@ button:active {
     text-align: center;
     color: #42526e;
     position: absolute;
-    margin-top: -30%;
+    margin-top: -65%;
     align-self: center;
     align-content: center;
   }
 
   .about button {
-    position: absolute;
-    margin-top: 17%;
+    position: relative;
     transition-duration: 0.4s;
     cursor: pointer;
   }
@@ -1468,19 +1516,19 @@ button:active {
     gap: 10px;
     margin: 0;
     border-radius: 8px;
-    width: 100%;
+    width: 150%;
   }
 
   .containers {
-    width: 31%;
+    width: 32%;
   }
 
   .container2 {
-    width: 31%;
+    width: 32%;
   }
 
   .container3 {
-    width: 31%;
+    width: 32%;
   }
 
   .containers ul {
@@ -1488,6 +1536,30 @@ button:active {
     margin-left: 0;
   }
 
+  .containers img {
+    margin-top: 5%;
+  }
+
+  .containers ol {
+    margin-top: -10px;
+  }
+
+  .frameworks img {
+    margin-top: -50%;
+  }
+
+  .frameworks ol {
+    margin-top: 80%;
+  }
+
+  .skills img {
+    margin-top: -50%;
+  }
+
+  .skills ol {
+    margin-top: 50%;
+    padding-bottom: 0;
+  }
   .container4 {
     width: 40%;
     color: #172b4d;
@@ -1508,8 +1580,8 @@ button:active {
   }
 
   .container5 button {
-    margin-top: 35%;
-    margin-left: -40%;
+    margin-top: 5%;
+    margin-left: -160%;
   }
 
   .container5 h5 {
@@ -1517,7 +1589,7 @@ button:active {
   }
 
   .footer {
-    margin-left: -100%;
+    margin-left: -10%;
   }
 
   #t {
