@@ -12,7 +12,7 @@ a {
 
 body {
   font-family: 'Inter', sans-serif;
-  height: 150%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +125,7 @@ h1 {
   color: #172b4d;
   justify-content: center;
   align-self: center;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 
 .headline {
@@ -150,13 +150,24 @@ img {
 }
 
 .next img {
-  margin: 0;
+  margin-top: 10%;
+  margin-bottom: 5%;
   padding: 0;
+  align-self: center;
+}
+
+#above-work {
+  margin: 0;
+  width: 15%;
+  border: 2px solid #36b37e;
+  align-self: center;
+  margin-left: -5%;
+
 }
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 15px;
   width: 10px;
   height: 10px;
@@ -270,7 +281,7 @@ hr {
   width: 100%;
   justify-content: flex-start;
   justify-items: flex-start;
-  margin-left: 0;
+  margin-left: 5%;
 }
 
 .text ul li {
@@ -419,23 +430,26 @@ button {
 
 .about p {
   font-family: 'Inter', sans-serif;
-  width: 351px;
-  height: 194px;
+  width: 60%;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  text-align: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
   color: #42526e;
   position: absolute;
-  margin-top: -450%;
+  top: 50%;
+  margin: 5%;
 }
 
 .about button {
-  position: absolute;
-  margin-top: 67%;
+  position: relative;
+  margin-top: 60%;
   transition-duration: 0.4s;
   cursor: pointer;
+  margin-left: -70%;
 }
 
 .right-corner {
@@ -450,8 +464,18 @@ button {
   flex-direction: row;
   justify-content: flex-start;
   margin-left: -175%;
-  margin-top: 50%;
+  margin-top: 1%;
   width: max-content;
+}
+
+.about-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+top: 20%;
+position: relative;
+padding: 30%;
 }
 
 .containers {
@@ -459,7 +483,6 @@ button {
   flex-direction: column;
   box-sizing: border-box;
   position: relative;
-  top: 103%;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
@@ -468,6 +491,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
+  padding: 5%;
 }
 
 .containers ul {
@@ -497,6 +521,7 @@ button {
   justify-content: center;
   align-items: center;
   margin-left: 40%;
+  margin-bottom: 5%;
 }
 
 .containers ol li {
@@ -526,6 +551,12 @@ button {
   color: #344563;
   margin-left: 20%;
   margin-top: -8%;
+}
+
+.containers img {
+  width: 60%;
+  background: none;
+  margin-left: -80%;
 }
 
 .container2 {
@@ -577,6 +608,14 @@ button {
   margin-left: -20px;
 }
 
+.frameworks img {
+  width: 60%;
+  background: none;
+  margin: 0;
+  margin-left: -60%;
+  top: 60px;
+}
+
 .frameworks ol {
   display: flex;
   flex-direction: row;
@@ -592,7 +631,7 @@ button {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  margin-top: -20%;
+  margin-top: -25%;
   width: 300px;
   margin-bottom: 5%;
 }
@@ -657,6 +696,14 @@ button {
   margin-left: -30px;
 }
 
+.skills img {
+  width: 60%;
+  background: none;
+  margin: 0;
+  margin-left: -60%;
+  top: 70px;
+}
+
 .skills ol {
   display: flex;
   flex-direction: row;
@@ -674,6 +721,7 @@ button {
   line-height: 16px;
   margin-bottom: 10%;
   width: 320px;
+  margin-top: -30%;
 }
 
 .skills ol li {
@@ -705,18 +753,18 @@ button {
   text-align: center;
   color: #344563;
   margin-left: 85%;
-  margin-top: -8%;
+  margin-top: -5%;
 }
 
 .container4 {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 170%;
+  top: 160%;
   height: 200px;
   width: 327px;
   align-items: center;
-  margin-top: 130px;
+  margin-top: 10%;
 }
 
 .container5 {
@@ -725,7 +773,8 @@ button {
   position: relative;
   top: 190%;
   height: 90%;
-  width: 327px;
+  width: 95%;
+  margin-left: 10%;
 }
 
 form > * {
@@ -734,8 +783,9 @@ form > * {
 
 .container5 button {
   position: absolute;
-  margin-top: 65%;
-  display: inline-block;
+  top: 30%;
+  align-self: center;
+  margin-left: 1%;
 }
 
 .container5 #fname {
@@ -746,7 +796,7 @@ form > * {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   background: #fff;
-  width: 80%;
+  width: 90%;
   height: 35px;
   font-style: italic;
   padding: 8px;
@@ -760,7 +810,7 @@ form > * {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   background: #fff;
-  width: 80%;
+  width: 90%;
   height: 35px;
   font-style: italic;
   padding: 8px;
@@ -772,7 +822,7 @@ form > * {
 }
 
 .container5 textarea {
-  width: 80%;
+  width: 90%;
   height: 70px;
   padding: 8px;
   border-color: #60c095;
@@ -802,6 +852,10 @@ button:hover {
 
 button:active {
   background-color: blue;
+}
+
+#for-desktop {
+  visibility: hidden;
 }
 
 #underline {
