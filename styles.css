@@ -832,7 +832,7 @@ button {
   padding: 0;
   color: #172b4d;
   margin: 0;
-} 
+}
 
 .container5 {
   display: flex;
@@ -944,10 +944,6 @@ button:active {
 }
 
 @media only screen and (min-width: 600px) {
- /* .container1 {
-    width: 95%;
-  }
-
   .containera {
     width: 95%;
   }
@@ -974,7 +970,7 @@ button:active {
     padding-left: 10%;
     padding-right: 10%;
   }
-*/
+
   .about button {
   margin-top: 20%;
   }
@@ -1228,6 +1224,7 @@ button:active {
   #hidden {
     display: none;
   }
+
   .skills ol {
     display: flex;
     flex-direction: row;
@@ -1288,6 +1285,7 @@ button:active {
     margin-top: -5%;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
