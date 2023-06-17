@@ -157,10 +157,14 @@ img {
 }
 
 .next img {
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   align-self: center;
+  width: 10%;
+  height: 10%;
+  margin-left: 45%;
+  left: 0;
 }
 
 #above-work {
@@ -456,7 +460,10 @@ button {
   margin-top: 50%;
   transition-duration: 0.4s;
   cursor: pointer;
-  margin-left: -70%;
+  left: 0;
+  margin-left: 0;
+  bottom: 0;
+  top: 0;
 }
 
 .right-corner {
@@ -849,7 +856,8 @@ form > * {
   width: 30%;
   height: 40px;
   left: -30%;
-  margin-top: 2%;
+  margin-top: 10px;
+  top: 0;
 }
 
 .container5 #fname {
@@ -911,7 +919,7 @@ form > * {
   line-height: 32px;
   text-align: center;
   color: #42526e;
-  margin-top: 3%;
+  margin: 0;
 }
 
 button:hover {
@@ -936,7 +944,7 @@ button:active {
 }
 
 @media only screen and (min-width: 600px) {
-  .container1 {
+ /* .container1 {
     width: 95%;
   }
 
@@ -966,15 +974,9 @@ button:active {
     padding-left: 10%;
     padding-right: 10%;
   }
-
+*/
   .about button {
-    top: -40%;
-    margin-left: -80%;
-    padding-top: -30%;
-  }
-
-  .left-corner {
-    margin-top: -5%;
+  margin-top: 20%;
   }
 }
 
@@ -1021,7 +1023,7 @@ button:active {
 
   .fa {
     position: relative;
-    margin-top: 1550%;
+    margin-top: 1000%;
   }
 
   #above-work {
@@ -1188,26 +1190,15 @@ button:active {
     align-items: center;
     position: relative;
     width: 100%;
+    overflow-y: hidden;
   }
 
   .about p {
-    font-family: 'Inter', sans-serif;
-    width: 90%;
-    height: 10%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #42526e;
-    position: absolute;
-    margin-top: -82%;
+    margin-top: 10%;
   }
 
   .about button {
-    position: relative;
     margin-top: 10%;
-    transition-duration: 0.4s;
-    cursor: pointer;
   }
 
   .left-corner {
@@ -1225,39 +1216,18 @@ button:active {
     justify-content: center;
     align-items: center;
     position: relative;
-    gap: 10px;
+    gap: 5px;
     margin: 0;
     border-radius: 8px;
-    width: 150%;
-    padding-top: 5%;
-  }
-
-  .containers ol {
-    margin-left: 50%;
-    gap: 40%;
+    width: 100%;
+    padding-top: 0;
+    top: 0;
+    overflow-y: hidden;
   }
 
   #hidden {
     display: none;
   }
-
-  .frameworks h3 {
-    margin-top: -1px;
-  }
-
-  .frameworks ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: -50px;
-  }
-
-  .skills h3 {
-    margin-top: -10px;
-  }
-
   .skills ol {
     display: flex;
     flex-direction: row;
@@ -1268,45 +1238,24 @@ button:active {
     margin-bottom: 20%;
   }
 
-  .skills ol li {
-    font-weight: 600;
-    font-size: 10px;
-    width: fit-content;
-    margin: 0;
-  }
-
-  .containers ul {
-    margin-left: 0;
-  }
-
   .container4 {
     width: 50%;
     color: #172b4d;
     align-self: self-start;
-    margin-left: 0%;
-    margin-top: -15%;
+    margin: 0;
+    padding-top: 5%;
   }
 
   .container5 {
     width: 50%;
-    margin-left: 50%;
-    margin-top: -45%;
     justify-content: left;
     align-items: left;
-  }
-
-  .container5 button {
-    margin-top: 10%;
-    margin-left: -138%;
+    margin-top: -20%;
+    margin-left: 40%;
   }
 
   .container5 h5 {
     visibility: hidden;
-  }
-
-  .footer {
-    margin-left: 0;
-    margin-top: -40%;
   }
 
   #t {
@@ -1315,6 +1264,10 @@ button:active {
     font-size: 20px;
     line-height: 42px;
     margin-top: -20px;
+  }
+
+  .footer {
+    margin-top: -40%;
   }
 
   .container7 ul {
@@ -1335,52 +1288,6 @@ button:active {
     margin-top: -5%;
   }
 }
-
-@media only screen and (min-width: 992px) {
-  html {
-    overflow-x: hidden;
-    width: 100%;
-  } 
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .headline p {
-    font-size: 20px;
-    font-weight: 600px;
-    line-height: 32px;
-    width: 70%;
-    align-self: center;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 15%;
-    margin-top: 17%;
-  }
-
-  .about p {
-    margin-top: -67%;
-    width: 80%;
-  }
-
-  .fa {
-     margin-top: 1850%;
-  }
-
-  .container5 {
-    margin-top: -35%;
-  }
-
-  .containers img {
-    margin-left: -70%;
-  }
-
-  .skills img {
-    margin-top: -10%;
-  }
-}
-
 @media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
@@ -1408,24 +1315,11 @@ button:active {
   }
 
   .fa {
-    margin-top: 1700%;
-  }
-  .works {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-top: 1050%;
   }
 
   .headline {
     background-image: url(icons/Header-llustration-desktop.svg);
-    background-position: initial;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -10%;
     width: 100%;
   }
 
@@ -1438,6 +1332,8 @@ button:active {
   }
 
   .headline p {
+    font-weight: 400;
+    font-size: 20px;
     align-self: center;
     position: absolute;
     margin-top: 25%;
@@ -1450,57 +1346,9 @@ button:active {
     align-items: center;
   }
 
-  .containers img {
-    margin-left: -150px;
-    margin-top: -50px;
-  }
-
-  .frameworks img {
-    margin-left: -40px;
-    margin-top: 50%;
-    margin-bottom: -10px;
-  }
-
-  .skills img {
-    margin-left: -40px;
-    margin-top: 50px;
-    margin-bottom: -10px;
-  }
-
-  .contact1 ul li {
-    width: 30%;
-    height: 10%;
-    border-radius: 0%;
-    align-self: center;
-  }
-
-  .about-container img {
-    width: 70%;
-    background: none;
-  }
-
-  .contact1 ul li img {
-    width: 12px;
-    margin: 5px;
-  }
-
   .next {
     background-color: #fff;
     width: 100%;
-  }
-
-  .h2 {
-    margin: 0;
-  }
-
-  .container1 {
-    width: 30%;
-    border: 1px solid #d0d9d4;
-    top: 7%;
-    margin: 10px;
-    padding: 0;
-    justify-content: center;
-    align-content: center;
   }
 
   .containera {
@@ -1555,9 +1403,9 @@ button:active {
     text-align: center;
     color: #42526e;
     position: absolute;
-    margin-top: -65%;
+    margin-top: 10%;
     align-self: center;
-    align-content: center;
+    top: 0;
   }
 
   .about button {
@@ -1600,73 +1448,36 @@ button:active {
     width: 32%;
   }
 
-  .containers ul {
-    position: absolute;
-    margin-left: 0;
-  }
-
-  .containers img {
-    margin-top: 5%;
-  }
-
-  .containers ol {
-    margin-top: -10px;
-  }
-
-  .frameworks img {
-    margin-top: -50%;
-  }
-
-  .frameworks ol {
-    margin-top: 80%;
-  }
-
-  .skills img {
-    margin-top: -50%;
-  }
-
-  .skills ol {
-    margin-top: 50%;
-    padding-bottom: 0;
-  }
   .container4 {
-    width: 40%;
+    width: 50%;
     color: #172b4d;
     align-self: self-start;
-    margin-left: 7%;
-  }
-
-  .container4 h2 {
-    float: left;
+    margin: 0;
+    padding-top: 5%;
   }
 
   .container5 {
-    width: 60%;
-    margin-left: 50%;
-    margin-top: -35%;
+    width: 50%;
     justify-content: left;
     align-items: left;
-  }
-
-  .container5 button {
-    margin-top: 5%;
-    margin-left: -160%;
+    margin-top: -20%;
+    margin-left: 40%;
   }
 
   .container5 h5 {
     visibility: hidden;
   }
 
-  .footer {
-    margin-left: -10%;
-  }
-
   #t {
     text-align: left;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 42px;
-    margin-top: -30px;
+    margin-top: -20px;
+  }
+
+  .footer {
+    margin-top: -30%;
   }
 
   .container7 ul {
@@ -1677,28 +1488,13 @@ button:active {
     width: 10%;
   }
 
-  .frameworks h3 {
-    margin-top: -30px;
-  }
-
-  .frameworks ol {
-    margin-top: -90px;
-  }
-
-  .skills h3 {
-    margin-top: -30px;
-  }
-
-  .skills ol {
-    margin-top: -80px;
-  }
-
-  hr {
+  #for-desktop {
     height: 2%;
     width: 150%;
     background-color: #172b4d;
     visibility: visible;
     position: relative;
-    margin-left: -70%;
+    margin-left: 0;
+    margin-top: -5%;
   }
 }
