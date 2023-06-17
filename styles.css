@@ -188,6 +188,7 @@ img {
   background: none;
   color: #505f79;
   padding-bottom: 55%;
+  overflow-y: hidden;
 }
 
 /* Add a hover effect */
@@ -966,13 +967,17 @@ button:active {
 
   .about p {
     align-self: center;
-    top: 70%;
+    top: 2%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
   .about button {
     margin-top: 20%;
+  }
+
+  .fa {
+    overflow-y: hidden;
   }
 }
 
@@ -1020,6 +1025,7 @@ button:active {
   .fa {
     position: relative;
     margin-top: 1000%;
+    overflow-y: hidden;
   }
 
   #above-work {
@@ -1088,21 +1094,6 @@ button:active {
     justify-content: center;
     align-items: center;
     visibility: visible;
-  }
-
-  .containers img {
-    margin-left: -100px;
-    margin-top: -30px;
-  }
-
-  .frameworks img {
-    margin-left: -40px;
-    margin-top: -10px;
-  }
-
-  .skills img {
-    margin-left: -40px;
-    margin-top: 20px;
   }
 
   .contact1 ul li {
@@ -1302,6 +1293,7 @@ button:active {
 
   .fa {
     margin-top: 1150%;
+    overflow-y: hidden;
   }
 
   .about p {
@@ -1459,30 +1451,6 @@ button:active {
     width: max-content;
   }
 
-  .about-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    gap: 10px;
-    margin: 0;
-    border-radius: 8px;
-    width: 150%;
-  }
-
-  .containers {
-    width: 32%;
-  }
-
-  .container2 {
-    width: 32%;
-  }
-
-  .container3 {
-    width: 32%;
-  }
-
   .container4 {
     width: 50%;
     color: #172b4d;
@@ -1501,6 +1469,10 @@ button:active {
 
   .container5 h5 {
     visibility: hidden;
+  }
+
+  .container5 button {
+    margin-top: 5px;
   }
 
   #t {
