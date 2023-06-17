@@ -972,7 +972,7 @@ button:active {
   }
 
   .about button {
-  margin-top: 20%;
+    margin-top: 20%;
   }
 }
 
@@ -1298,7 +1298,7 @@ button:active {
     align-items: center;
     margin: 12%;
     margin-top: 18%;
-}
+  }
 
   .fa {
     margin-top: 1150%;
@@ -1308,19 +1308,19 @@ button:active {
     padding: 0;
     top: 0;
     margin-top: 10%;
-}
+  }
 
-.skills ol {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 0;
-  margin-left: 0;
-  gap: 5%;
-  margin-bottom: 0;
-}
+  .skills ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 0;
+    gap: 5%;
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
